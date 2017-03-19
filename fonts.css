@@ -1,0 +1,11 @@
+/* Sans Serif */
+@font-face {
+  font-family: "Environment";
+  src: url("./assets/fonts/Environment.otf");
+}
+
+/* Alarm Clock Type */
+@font-face {
+  font-family: "Technology";
+  src: url("./assets/fonts/Technology-BoldItalic.ttf");
+}
