@@ -1,5 +1,10 @@
 @import url("./fonts.css");
 
+:root {
+  --font-tech: "Technology", sans-serif;
+  --font-env: "Environment", sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
