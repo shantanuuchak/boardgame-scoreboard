@@ -3,10 +3,19 @@
 :root {
   --font-tech: "Technology", sans-serif;
   --font-env: "Environment", sans-serif;
+  --color-dark: #050505;
+  --color-highlight: #ffd900;
+  --color-blue: #062a8b;
+  --color-grey: #0c0c0c;
+  --color-white: whitesmoke;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-env);
 }
