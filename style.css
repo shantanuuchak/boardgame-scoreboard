@@ -35,4 +35,16 @@ body {
   padding: 7px;
   border: 7px solid var(--color-highlight);
   border-radius: 7px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.score {
+  font-family: var(--font-tech);
+  background-color: var(--color-grey);
+  font-size: 50px;
+  color: var(--color-highlight);
+  text-align: right;
 }
