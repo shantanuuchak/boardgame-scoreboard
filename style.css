@@ -1,3 +1,4 @@
+/* Base Spacing Unit: 7 */
 @import url("./fonts.css");
 
 :root {
@@ -28,7 +29,10 @@ body {
 }
 
 .board-box {
-  width: 750px;
+  width: 770px;
   background-color: var(--color-blue);
   height: 70vh;
+  padding: 7px;
+  border: 7px solid var(--color-highlight);
+  border-radius: 7px;
 }
