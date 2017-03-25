@@ -3,7 +3,7 @@
 
 :root {
   --font-tech: "Technology", sans-serif;
-  --font-env: "Environment", sans-serif;
+  --font-env: "Couture", sans-serif;
   --color-dark: #050505;
   --color-highlight: #ffd900;
   --color-blue: #062a8b;
@@ -41,10 +41,21 @@ body {
   align-items: center;
 }
 
+.title {
+  font-size: 50px;
+}
+
 .score {
   font-family: var(--font-tech);
   background-color: var(--color-grey);
   font-size: 50px;
   color: var(--color-highlight);
   text-align: right;
+}
+
+button {
+  font-family: inherit;
+  padding: 7px 14px;
+  background-color: var(--color-white);
+  color: var(--color-dark);
 }
