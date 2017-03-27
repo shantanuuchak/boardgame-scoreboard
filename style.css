@@ -43,6 +43,7 @@ body {
 
 .title {
   font-size: 50px;
+  margin-bottom: 21px;
 }
 
 .score {
@@ -51,11 +52,19 @@ body {
   font-size: 50px;
   color: var(--color-highlight);
   text-align: right;
+
+  margin-bottom: 21px;
+}
+
+.btns {
 }
 
 button {
   font-family: inherit;
   padding: 7px 14px;
-  background-color: var(--color-white);
-  color: var(--color-dark);
+  color: var(--color-white);
+  background: none;
+  border: 3.5px solid var(--color-white);
+  border-radius: 3.5;
+  cursor: pointer;
 }
