@@ -78,3 +78,13 @@ button {
   cursor: pointer;
   font-size: 21px;
 }
+
+@media screen and (max-width: 900px) {
+  .board-box {
+    flex-direction: column;
+    width: 400px;
+  }
+  .first {
+    margin-bottom: 14px;
+  }
+}
