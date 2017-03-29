@@ -19,18 +19,25 @@
 
 body {
   font-family: var(--font-env);
-  background-color: var(--color-dark);
   color: var(--color-white);
-  display: flex;
+  width: 100vw;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  display: flex;
   height: 100vh;
+
+  background-image: linear-gradient(var(--color-dark), var(--color-grey));
 }
 
 .board-box {
   width: 770px;
   background-color: var(--color-blue);
+  background-image: linear-gradient(
+    150deg,
+    var(--color-blue),
+    var(--color-grey)
+  );
+
   height: 70vh;
   padding: 7px;
   border: 7px solid var(--color-highlight);
