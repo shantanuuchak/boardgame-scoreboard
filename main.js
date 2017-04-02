@@ -1,1 +1,1 @@
-// Script
+// Targetin DOM
