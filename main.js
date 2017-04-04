@@ -9,3 +9,9 @@ const secondScoreText = document.querySelector(".second .score");
 const secondBtnAdd1 = document.querySelector(".second .add-one");
 const secondBtnAdd2 = document.querySelector(".second .add-two");
 const secondBtnAdd3 = document.querySelector(".second .add-three");
+
+// Game Score
+let score = {
+  first: 0,
+  second: 0,
+};
