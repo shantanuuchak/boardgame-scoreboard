@@ -15,3 +15,6 @@ let score = {
   first: 0,
   second: 0,
 };
+
+// addScore(1/2, 1/2/3)
+function addScore(user, count) {}
