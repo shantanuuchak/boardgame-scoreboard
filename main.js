@@ -17,4 +17,14 @@ let score = {
 };
 
 // addScore(1/2, 1/2/3)
-function addScore(user, count) {}
+function addScore(user, count) {
+  score[user] = count;
+}
+
+// Paint DOM
+function paintDOM() {
+  firstScoreText.textContent = score[first];
+  secondScoreText.textContent = score[second];
+}
+
+// Adding event listeners
