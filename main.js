@@ -28,11 +28,22 @@ function paintDOM() {
 }
 
 // Adding event listeners
+// Add 1
 firstBtnAdd1.addEventListener("click", function () {
   addScore("first", 1);
   paintDOM();
 });
 secondBtnAdd1.addEventListener("click", function () {
   addScore("second", 1);
+  paintDOM();
+});
+
+// Add 2
+firstBtnAdd2.addEventListener("click", function () {
+  addScore("first", 2);
+  paintDOM();
+});
+secondBtnAdd2.addEventListener("click", function () {
+  addScore("second", 2);
   paintDOM();
 });
