@@ -47,3 +47,13 @@ secondBtnAdd2.addEventListener("click", function () {
   addScore("second", 2);
   paintDOM();
 });
+
+// Add 3
+firstBtnAdd4.addEventListener("click", function () {
+  addScore("first", 3);
+  paintDOM();
+});
+secondBtnAdd4.addEventListener("click", function () {
+  addScore("second", 3);
+  paintDOM();
+});
