@@ -23,8 +23,10 @@ body {
   width: 100vw;
   justify-content: center;
   align-items: center;
-  display: flex;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
 
   background-image: linear-gradient(var(--color-dark), var(--color-grey));
 }
