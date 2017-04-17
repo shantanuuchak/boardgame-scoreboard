@@ -27,8 +27,13 @@ body {
   display: flex;
   flex-direction: column;
   gap: 21px;
+  text-align: center;
 
   background-image: linear-gradient(var(--color-dark), var(--color-grey));
+}
+
+.heading {
+  font-size: 20px;
 }
 
 .board-box {
