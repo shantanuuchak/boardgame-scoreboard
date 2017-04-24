@@ -32,7 +32,7 @@ function paintDOM() {
 
   if (score["first"] === score["second"]) {
     winText.textContent = "Draw ♠️";
-  } else if (score["first" > score["second"]]) {
+  } else if (score["first"] > score["second"]) {
     winText.textContent = "Player 1️⃣ is on lead.";
   } else {
     winText.textContent = "Player 2️⃣ is on lead.";
